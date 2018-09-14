@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Edit Item | Admin-Dash</title>
+     <link type="text/css" href="css/main.css" rel="stylesheet">
+</head>
+<body  style="background-image:url('images/tablesetting.jpg');" >
+    <header>
+        <section class="content">
+            <div class="logo"></div>
+            <ul class="ul-links">          
+                    <li><a href="admin_dashboard.html">Dashboard</a></li>
+                    <li class="active"><a href="#">Edit item</a></li>
+                    <li><a href="logout.html">logout</a></li>
+                    
+            </ul>
+        </section>
+
+
+    </header>
+
+      <section>
+        <h1 align="center"> Edit Item</h1>
+         <br/>
+         <form method="POST" action="#">
+                <table width="40%" align="center" border="0">
+                <tbody>
+                  <tr>
+                    <td><input  required="" name="item_name" placeholder="Item" type="text"></td>
+                  </tr>
+                  <tr>
+                        <td><input  required="" name="price" placeholder="New Price" type="number"></td>
+                      </tr>
+                  <tr>
+                    <td><input required="" name="password" placeholder="Admin Password" type="password"></td>
+                  </tr>
+                  <tr>
+                        <td><input required="" name="password2" placeholder="Confirm Password" type="password"></td>
+                      </tr>
+                  <tr>
+                    <td><button  type="submit">Update Item</button></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+              </form>
+
+     </section>
+            
+    <footer>
+       <p>Copyright © 2018 Nicholas. All rights reserved.</p>
+   </footer>
+       </body>
+    </html>

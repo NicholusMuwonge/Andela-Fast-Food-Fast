@@ -1,0 +1,11 @@
+{
+    "name":"Andela Fast Food Inc",
+    "version":"1.0.0",
+    "scripts":{
+        "start":"python.py"
+    },
+    "extensionDependencies": [
+        "express" :"4.13.3"
+    ],"author":"Muwonge Nicholus",
+    "License":"ISC"
+}

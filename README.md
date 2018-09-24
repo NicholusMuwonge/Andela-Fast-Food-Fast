@@ -4,7 +4,7 @@
 
 GitHub Pages link:https://nicholusmuwonge.github.io/Andela-Fast-Food-Inc/
 # Dependencies
-    >Python 3.5
+    >Python 3.6
     >Flask 1.0.2
     >Express
 
